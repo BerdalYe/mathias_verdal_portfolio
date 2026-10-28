@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Calendar icon. Body geometrically centered + a small 13px optical
+       shift DOWN so the small posts above don't visually pull the whole
+       composition up. 100×100 day boxes with 30px gap, centered in body.
+       Top-middle box is coral. -->
+
+  <!-- Brand-blue rounded square -->
+  <rect width="1024" height="1024" rx="224" fill="#1d4ed8"/>
+
+  <!-- White binding posts at top (drawn first; body sits in front). -->
+  <rect x="337" y="120" width="60" height="140" rx="30" fill="#ffffff"/>
+  <rect x="627" y="120" width="60" height="140" rx="30" fill="#ffffff"/>
+
+  <!-- White calendar body — 670×630, centered horizontally, shifted 13px
+       down vertically for optical balance with the posts above. -->
+  <rect x="177" y="210" width="670" height="630" rx="72" fill="#ffffff"/>
+
+  <!-- 3×2 grid of 100×100 day boxes with 30px gap, centered in body
+       (left/right padding 155, top/bottom padding 200). Top-middle coral. -->
+  <rect x="332" y="410" width="100" height="100" rx="14" fill="#1d4ed8"/>
+  <rect x="462" y="410" width="100" height="100" rx="14" fill="#FF5B24"/>
+  <rect x="592" y="410" width="100" height="100" rx="14" fill="#1d4ed8"/>
+  <rect x="332" y="540" width="100" height="100" rx="14" fill="#1d4ed8"/>
+  <rect x="462" y="540" width="100" height="100" rx="14" fill="#1d4ed8"/>
+  <rect x="592" y="540" width="100" height="100" rx="14" fill="#1d4ed8"/>
+</svg>
