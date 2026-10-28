@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <mask id="cut">
+      <rect width="200" height="200" fill="white"/>
+      <g fill="none" stroke="black" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="36,135 36,65 66,105 96,65 96,135"/>
+        <polyline points="114,65 138,135 162,65"/>
+      </g>
+    </mask>
+  </defs>
+  <rect width="200" height="200" rx="48" ry="48" fill="#4A90E2" mask="url(#cut)"/>
+</svg>
