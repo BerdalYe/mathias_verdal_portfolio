@@ -11,8 +11,13 @@
     <header>
         <img src="assets/logo.svg" alt="MV" class="mv_logo">
         <h1>MathiasVerdal</h1>
-        <a class="header-link active" href="index.html" aria-current="page">Hjem</a>
-        <a class="header-link" href="projects.html">Prosjekter</a>
+        <button class="menu-toggle" type="button" aria-label="Meny" aria-expanded="false" aria-controls="nav-links">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links" id="nav-links">
+            <a class="header-link active" href="index.html" aria-current="page">Hjem</a>
+            <a class="header-link" href="projects.html">Prosjekter</a>
+        </nav>
     </header>
     <div class="about">
         <img src="assets/berdal_logo.png" alt="Profilbilde" class="profile-image">

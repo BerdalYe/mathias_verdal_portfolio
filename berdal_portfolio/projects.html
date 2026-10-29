@@ -11,8 +11,13 @@
     <header>
         <img src="assets/logo.svg" alt="MV" class="mv_logo">
         <h1>MathiasVerdal</h1>
-        <a class="header-link" href="index.html">Hjem</a>
-        <a class="header-link active" href="projects.html" aria-current="page">Prosjekter</a>
+        <button class="menu-toggle" type="button" aria-label="Meny" aria-expanded="false" aria-controls="nav-links">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links" id="nav-links">
+            <a class="header-link" href="index.html">Hjem</a>
+            <a class="header-link active" href="projects.html" aria-current="page">Prosjekter</a>
+        </nav>
     </header>
     <div class="content_projects">
         <h1>Mine prosjekter</h1>
@@ -39,10 +44,34 @@
                     <a class="project_link" href="https://play.google.com/store/apps/details?id=no.arbeidsdager.app" target="_blank">Se på Google Play</a>
                 </div>
             </article>
+            <article class="project_card">
+                <img src="assets/pulsegridstudio.jpg" alt="Skjermbilde av pulsegrid studio">
+                <div class="project_body">
+                    <h2>PulseGrid Studio</h2>
+                    <p>Gratis musikkstudio med åpen kildekode for Windows, Mac og nettet. Piano roll, spilleliste, mikser og valgfri synkronisering via skyen.</p>
+                    <ul class="tags">
+                        <li>React</li><li>Typescript</li><li>DAW</li><li>Electron</li>
+                    </ul>
+                    <a class="project_link" href="https://pulsegridstudio.netlify.app" target="_blank">Nettside</a>
+                    <a class="project_link" href="https://github.com/BerdalYe/pulsegrid-studio" target="_blank">Github</a>
+                </div>
+            </article>
+            <article class="project_card">
+                <img src="assets/shaperbuild.jpg" alt="Skjermbilde av shaperbuild">
+                <div class="project_body">
+                    <h2>ShaperBuild</h2>
+                    <p>Gratis 3D-CAD-program med åpen kildekode for Windows, macOS og Linux. Lag skisser, bruk ekstrudering og avrunding, rediger historikken, eksporter for 3D-printing (STL, 3MF, STEP) og lag 2D-tegninger.</p>
+                    <ul class="tags">
+                        <li>Threejs</li><li>Electron</li><li>CAD</li><li>3d-modeling</li>
+                    </ul>
+                    <a class="project_link" href="https://github.com/BerdalYe/ShaperBuild" target="_blank">Se her</a>
+                </div>
+            </article>
         </div>
     </div>
     <footer>
         <p>© 2026 Mathias Verdal. Alle rettigheter reservert.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
