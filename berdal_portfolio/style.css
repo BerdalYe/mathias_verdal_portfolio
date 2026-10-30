@@ -112,7 +112,7 @@ footer {
 .about p {
   font-size: 17px;
   margin-left: 50px;
-  margin-right: 400px;
+  margin-right: 50px;
 }
 
 .content_home {
@@ -138,8 +138,14 @@ footer {
   text-align: center;
 }
 
+.projects_button {
+  flex-shrink: 0;
+  margin-right: 80px;
+}
+
 .mine_sider a,
-.kontakt_meg a {
+.kontakt_meg a,
+.projects_button {
   display: inline-block;
   min-width: 220px;
   margin-top: 15px;
@@ -153,13 +159,15 @@ footer {
 }
 
 .mine_sider a:hover,
-.kontakt_meg a:hover {
+.kontakt_meg a:hover,
+.projects_button:hover {
   background-color: #357ABD;
   box-shadow: rgba(74, 144, 226, 0.4) 0px 4px 12px;
 }
 
 .mine_sider a:focus-visible,
-.kontakt_meg a:focus-visible {
+.kontakt_meg a:focus-visible,
+.projects_button:focus-visible {
   outline: 3px solid #2E2E2E;
     outline-offset: 2px;
   }
@@ -275,6 +283,10 @@ hr{
     gap: 20px;
     margin: 30px 20px;
   }
+
+  .projects_button {
+    margin: 20px 0 0;
+  }
 }
 
 @media (max-width: 600px) {
@@ -326,7 +338,8 @@ hr{
   }
 
   .mine_sider a,
-  .kontakt_meg a {
+  .kontakt_meg a,
+  .projects_button {
     min-width: 0;
     width: 100%;
     max-width: 200px;
